@@ -20,6 +20,8 @@ import scalafx.scene.text.FontWeight
 
 object LaunchGame extends JFXApp3 {
   
+  var score = 0
+
   // Set up initial variables for start and end positions of mouse drag
   var startX = 0.0
   var startY = 0.0
@@ -35,7 +37,7 @@ object LaunchGame extends JFXApp3 {
     centerX = 250
     centerY = 350
     radius = circleRadius
-    fill = White
+    fill = rgb(223, 255, 0)
   }
 
   override def start(): Unit = {
@@ -58,10 +60,16 @@ object LaunchGame extends JFXApp3 {
         startLabel.setTextFill(color(0.5, 0, 0))
 
         content = List(startButton, startLabel)
-
+        
+        var scoreLabel = new Label("Score: " + score)
+        scoreLabel.layoutX = 30
+        scoreLabel.layoutY = 700
+        scoreLabel.setFont(Font.font("Arial", FontWeight.BOLD, 36))
+        scoreLabel.setTextFill(color(1, 0, 1))
+        
         startButton.onMouseClicked = (click : MouseEvent) => {
           content.removeAll()
-          content = circle
+          content = List(circle, scoreLabel)
         }
 
         onMousePressed = (mousePress : MouseEvent) => {
@@ -106,4 +114,5 @@ object LaunchGame extends JFXApp3 {
 
   timer.start()
   }
+
 }
