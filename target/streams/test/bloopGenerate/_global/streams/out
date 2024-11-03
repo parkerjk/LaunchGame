@@ -1,0 +1,4 @@
+[debug] [launch-test] Classpath dependencies List()
+[debug] [launch-test] Dependencies from configurations List(launch)
+[debug] Bloop wrote the configuration of project 'launch-test' to 'C:\Users\parke\OneDrive\Desktop\Launch\launch\.bloop\launch-test.json'
+[success] Generated .bloop\launch-test.json
