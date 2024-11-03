@@ -11,6 +11,11 @@ import scalafx.scene.shape.Rectangle
 import scalafx.scene.text.Text
 import scalafx.scene.control.Button
 import scalafx.event.ActionEvent
+import scalafx.scene.control.Label
+import scalafx.scene.paint.Color
+import scalafx.scene.text.Font
+import scalafx.scene.text.Text
+import scalafx.scene.text.FontWeight
 
 
 object LaunchGame extends JFXApp3 {
@@ -27,8 +32,8 @@ object LaunchGame extends JFXApp3 {
 
   val circleRadius = 15
   val circle = new Circle {
-    centerX = 350
-    centerY = 200
+    centerX = 250
+    centerY = 350
     radius = circleRadius
     fill = White
   }
@@ -45,7 +50,14 @@ object LaunchGame extends JFXApp3 {
         val startButton = new Button("Start Game")
         startButton.layoutX = 250
         startButton.layoutY = 350
-        content = List(startButton)
+        
+        val startLabel = new Label("Launch The Ball")
+        startLabel.layoutX = 150
+        startLabel.layoutY = 100
+        startLabel.setFont(Font.font("Arial", FontWeight.BOLD, 36));
+        startLabel.setTextFill(color(0.5, 0, 0))
+
+        content = List(startButton, startLabel)
 
         startButton.onMouseClicked = (click : MouseEvent) => {
           content.removeAll()
