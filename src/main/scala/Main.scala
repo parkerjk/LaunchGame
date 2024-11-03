@@ -1,96 +1,97 @@
-import scalafx.application.JFXApp
+import scalafx.application.JFXApp3
 import scalafx.scene.Scene
 import scalafx.scene.layout.StackPane
-import scalafx.scene.paint.Color
+import scalafx.scene.paint.Color._
 import scalafx.scene.shape.Circle
 import scalafx.animation.AnimationTimer
 import scalafx.scene.input.MouseEvent
 import scalafx.Includes._
 import scalafx.event.EventHandler
+import scalafx.scene.shape.Rectangle
+import scalafx.scene.text.Text
+import scalafx.scene.control.Button
+import scalafx.event.ActionEvent
 
 
-object LaunchGame extends JFXApp {
+object LaunchGame extends JFXApp3 {
+  
+  // Set up initial variables for start and end positions of mouse drag
+  var startX = 0.0
+  var startY = 0.0
+  var velocityX = 0.0
+  var velocityY = 0.0
 
-  // Game variables
-  var projectiles: List[Projectile] = List()
-  var targets: List[Target] = List()
-  var isGameOver: Boolean = false
+  val friction = 0.99
 
-  // Define a StackPane for rendering
-  val gamePane = new StackPane()
+  var canLaunch = false
 
-  // Entry point for the application
-  stage = new JFXApp.PrimaryStage {
-    title = "Launch Game"
-    scene = new Scene(800, 600) {
-      fill = Color.LightBlue
-      content = gamePane
+  val circleRadius = 15
+  val circle = new Circle {
+    centerX = 350
+    centerY = 200
+    radius = circleRadius
+    fill = White
+  }
 
-      // Handle mouse click for launching projectiles
-      onMouseClicked = (event: MouseEvent) => {
-        launchProjectile(event.x, event.y)
+  override def start(): Unit = {
+
+    stage = new JFXApp3.PrimaryStage {
+      width = 600
+      height = 800
+      scene = new Scene {
+        title = "Launch Game"
+        fill = Black
+
+        val startButton = new Button("Start Game")
+        startButton.layoutX = 250
+        startButton.layoutY = 350
+        content = List(startButton)
+
+        startButton.onMouseClicked = (click : MouseEvent) => {
+          content.removeAll()
+          content = circle
+        }
+
+        onMousePressed = (mousePress : MouseEvent) => {
+          if (Math.pow(mousePress.x - circle.centerX(), 2) + Math.pow(mousePress.y - circle.centerY(), 2) <= Math.pow(circleRadius, 2)) {
+            startX = mousePress.x
+            startY = mousePress.y
+            canLaunch = true
+          }
+        }
+
+        onMouseReleased = (mouseReleased: MouseEvent) => {
+          if(canLaunch){
+            velocityX = (mouseReleased.x - startX) * 0.1
+            velocityY = (mouseReleased.y - startY) * 0.1
+            canLaunch = false
+          }
+        }
       }
     }
-  }
 
-  def launchProjectile(startX: Double, startY: Double): Unit = {
-    // Create a new projectile with the mouse click coordinates
-    val newProjectile = new Projectile(startX, startY)
-    // Add the new projectile to the list
-    projectiles = newProjectile :: projectiles
-    newProjectile.render(gamePane)
-  }
+    // Update the position of the circle
+  val timer = AnimationTimer { _ =>
+    circle.centerX = circle.centerX() + velocityX
+    circle.centerY = circle.centerY() + velocityY
+    velocityY += 0.1 // Simulate gravity
 
-  // Method to update game logic
-  def updateGame(): Unit = {
-    projectiles.foreach { projectile =>
-    // Example update logic, adjust as necessary for your game
-    projectile.update(projectile.x + 5, projectile.y) // Move right and down
-  }
-  // Check for collisions and other game logic
-  }
+    //Lose momentum
+    velocityX *= friction
+    velocityY *= friction
 
-  // Animation timer to refresh the game state
-  val gameLoop = AnimationTimer { time =>
-    if (!isGameOver) {
-      updateGame()
+    // Check for screen boundaries and reverse velocity if the circle hits the edge
+    if (circle.centerX() <= circleRadius || circle.centerX() >= stage.scene().width() - circleRadius) {
+      velocityX = -velocityX // Reverse X direction
+      circle.centerX = Math.max(circleRadius, Math.min(circle.centerX(), stage.scene().width() - circleRadius))
+    }
+
+    if (circle.centerY() <= circleRadius || circle.centerY() >= stage.scene().height() - circleRadius) {
+      velocityY = -velocityY // Reverse Y direction
+      circle.centerY = Math.max(circleRadius, Math.min(circle.centerY(), stage.scene().height() - circleRadius))
     }
   }
 
-  // Start the game loop
-  gameLoop.start()
-
-  // Define the Projectile class
-  class Projectile(var x: Double, var y: Double) {
-    // Add properties for velocity, size, etc.
-
-    val shape = new Circle {
-      centerX = x
-      centerY = y
-      radius = 10
-      fill = Color.Red
-    }
-
-    // Method to render the projectile in the scene
-     def update(newX: Double, newY: Double): Unit = {
-      shape.centerX = newX
-      shape.centerY = newY
-    } 
-
-    // Method to render the projectile in the scene
-    def render(stackPane: StackPane): Unit = {
-      stackPane.children.add(shape)
-    }
+  timer.start()
   }
-
-  // Define the Target class
-  class Target(var x: Double, var y: Double) {
-    // Add properties for size, hit points, etc.
-
-    // Method to check collisions with projectiles
-    def checkCollision(projectiles: List[Projectile]): Unit = {
-      // Logic to check for collisions and handle hits
-    }
-  }
-
 }
