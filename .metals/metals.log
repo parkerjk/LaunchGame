@@ -2131,3 +2131,434 @@ java.nio.file.FileSystemNotFoundException: Provider "git" not installed
 2024.11.03 15:30:40 INFO  time: compiled launch in 0.69s
 Nov 03, 2024 3:32:18 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+Nov 03, 2024 3:45:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 266
+Nov 03, 2024 3:45:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 267
+2024.11.03 15:46:46 INFO  compiling launch (1 scala source)
+2024.11.03 15:46:46 WARN  1 deprecation (since 2.2.60); re-run with -deprecation for details
+2024.11.03 15:46:46 INFO  time: compiled launch in 0.72s
+2024.11.03 15:47:19 INFO  compiling launch (1 scala source)
+2024.11.03 15:47:19 WARN  1 deprecation (since 2.2.60); re-run with -deprecation for details
+2024.11.03 15:47:19 INFO  time: compiled launch in 0.73s
+2024.11.03 15:47:29 INFO  compiling launch (1 scala source)
+2024.11.03 15:47:29 WARN  1 deprecation (since 2.2.60); re-run with -deprecation for details
+2024.11.03 15:47:29 INFO  time: compiled launch in 0.68s
+Nov 03, 2024 3:48:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 982
+Nov 03, 2024 3:48:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1056
+Nov 03, 2024 3:49:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1230
+Nov 03, 2024 3:49:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1240
+Nov 03, 2024 3:49:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1249
+Nov 03, 2024 3:49:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1291
+2024.11.03 15:49:37 INFO  compiling launch (1 scala source)
+2024.11.03 15:49:37 WARN  1 deprecation (since 2.2.60); re-run with -deprecation for details
+2024.11.03 15:49:37 INFO  time: compiled launch in 0.83s
+2024.11.03 15:50:35 INFO  compiling launch (1 scala source)
+2024.11.03 15:50:35 WARN  1 deprecation (since 2.2.60); re-run with -deprecation for details
+2024.11.03 15:50:35 INFO  time: compiled launch in 0.86s
+Nov 03, 2024 3:51:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2028
+Nov 03, 2024 3:51:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2029
+2024.11.03 15:51:29 INFO  compiling launch (1 scala source)
+2024.11.03 15:51:29 WARN  1 deprecation (since 2.2.60); re-run with -deprecation for details
+2024.11.03 15:51:29 INFO  time: compiled launch in 0.79s
+Nov 03, 2024 3:52:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2346
+2024.11.03 15:53:28 INFO  compiling launch (1 scala source)
+2024.11.03 15:53:28 WARN  1 deprecation (since 2.2.60); re-run with -deprecation for details
+2024.11.03 15:53:28 INFO  time: compiled launch in 0.74s
+2024.11.03 15:53:54 INFO  compiling launch (1 scala source)
+2024.11.03 15:53:54 WARN  1 deprecation (since 2.2.60); re-run with -deprecation for details
+2024.11.03 15:53:54 INFO  time: compiled launch in 0.69s
+2024.11.03 15:55:09 INFO  compiling launch (1 scala source)
+2024.11.03 15:55:09 WARN  2 deprecations (since 2.2.60); re-run with -deprecation for details
+2024.11.03 15:55:09 INFO  time: compiled launch in 0.81s
+2024.11.03 15:57:09 INFO  compiling launch (1 scala source)
+2024.11.03 15:57:09 WARN  2 deprecations (since 2.2.60); re-run with -deprecation for details
+2024.11.03 15:57:09 INFO  time: compiled launch in 0.74s
+2024.11.03 15:58:16 INFO  time: code lens generation in 1.85s
+2024.11.03 15:58:52 INFO  compiling launch (1 scala source)
+2024.11.03 15:58:52 WARN  2 deprecations (since 2.2.60); re-run with -deprecation for details
+2024.11.03 15:58:52 INFO  time: compiled launch in 0.86s
+2024.11.03 20:21:12 INFO  Started: Metals version 1.4.0 in folders 'C:\Users\parke\OneDrive\Desktop\Launch\launch' for client Visual Studio Code 1.95.1.
+2024.11.03 20:21:18 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.11.03 20:21:18 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundForPathException: No build target could be found for the path: C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+	at scala.meta.internal.metals.debug.DebugDiscovery.validate(DebugDiscovery.scala:94)
+	at scala.meta.internal.metals.debug.DebugDiscovery.debugDiscovery(DebugDiscovery.scala:170)
+	at scala.meta.internal.metals.debug.DebugDiscovery.runCommandDiscovery(DebugDiscovery.scala:61)
+	at scala.meta.internal.metals.MetalsLspService.discoverMainClasses(MetalsLspService.scala:1509)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:818)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.11.03 20:21:18 INFO  no build target found for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.03 20:21:19 INFO  Attempting to connect to the build server...
+2024.11.03 20:21:19 INFO  No running Bloop server found, starting one.
+2024.11.03 20:21:23 INFO  Starting compilation server
+2024.11.03 20:21:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\parke\OneDrive\Desktop\Launch\launch\.metals\bsp.trace.json or C:\Users\parke\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.03 20:21:29 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundForPathException: No build target could be found for the path: C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+	at scala.meta.internal.metals.debug.DebugDiscovery.validate(DebugDiscovery.scala:94)
+	at scala.meta.internal.metals.debug.DebugDiscovery.debugDiscovery(DebugDiscovery.scala:170)
+	at scala.meta.internal.metals.debug.DebugDiscovery.runCommandDiscovery(DebugDiscovery.scala:61)
+	at scala.meta.internal.metals.MetalsLspService.discoverMainClasses(MetalsLspService.scala:1509)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:818)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.11.03 20:21:30 INFO  Attempting to connect to the build server...
+2024.11.03 20:21:30 INFO  Found a Bloop server running
+2024.11.03 20:21:30 INFO  no build target found for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.03 20:21:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\parke\OneDrive\Desktop\Launch\launch\project\.metals\bsp.trace.json or C:\Users\parke\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.03 20:21:31 INFO  time: Connected to build server in 12s
+2024.11.03 20:21:31 INFO  Connected to Build server: Bloop v2.0.3
+2024.11.03 20:21:31 INFO  time: Imported build in 0.41s
+2024.11.03 20:21:31 INFO  running doctor check
+2024.11.03 20:21:31 INFO  java targets: launch-test, launch-build, launch
+2024.11.03 20:21:34 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$SemanticDbNotFoundException$: Build misconfiguration. No semanticdb can be found for you file, please check the doctor.
+	at scala.meta.internal.metals.debug.DiscoveryFailures$SemanticDbNotFoundException$.<clinit>(DiscoveryFailures.scala:66)
+	at scala.meta.internal.metals.debug.DebugDiscovery.$anonfun$runOrTestFile$1(DebugDiscovery.scala:255)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.DebugDiscovery.runOrTestFile(DebugDiscovery.scala:256)
+	at scala.meta.internal.metals.debug.DebugDiscovery.$anonfun$debugDiscovery$1(DebugDiscovery.scala:176)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.11.03 20:21:39 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.11.03 20:21:42 INFO  time: indexed workspace in 10s
+2024.11.03 20:27:32 INFO  compiling launch (1 scala source)
+2024.11.03 20:27:38 WARN  2 deprecations (since 2.2.60); re-run with -deprecation for details
+2024.11.03 20:27:38 INFO  time: compiled launch in 6.51s
+Nov 03, 2024 8:28:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 159
+2024.11.03 20:29:08 INFO  compiling launch (1 scala source)
+2024.11.03 20:29:10 WARN  2 deprecations (since 2.2.60); re-run with -deprecation for details
+2024.11.03 20:29:10 INFO  time: compiled launch in 2.52s
+2024.11.03 20:29:30 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 20:29:30 INFO  compiling launch (1 scala source)
+2024.11.03 20:29:30 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 20:29:32 WARN  2 deprecations (since 2.2.60); re-run with -deprecation for details
+2024.11.03 20:29:32 INFO  time: compiled launch in 2.1s
+2024.11.03 20:29:48 INFO  compiling launch (1 scala source)
+2024.11.03 20:29:50 WARN  2 deprecations (since 2.2.60); re-run with -deprecation for details
+2024.11.03 20:29:50 INFO  time: compiled launch in 1.69s
+2024.11.03 20:31:47 INFO  compiling launch (1 scala source)
+2024.11.03 20:31:49 WARN  2 deprecations (since 2.2.60); re-run with -deprecation for details
+2024.11.03 20:31:49 INFO  time: compiled launch in 1.61s
+2024.11.03 20:32:10 INFO  compiling launch (1 scala source)
+2024.11.03 20:32:12 WARN  2 deprecations (since 2.2.60); re-run with -deprecation for details
+2024.11.03 20:32:12 INFO  time: compiled launch in 1.38s
+2024.11.03 20:37:47 INFO  compiling launch (1 scala source)
+2024.11.03 20:37:49 WARN  2 deprecations (since 2.2.60); re-run with -deprecation for details
+2024.11.03 20:37:49 INFO  time: compiled launch in 1.59s
+Nov 03, 2024 8:39:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 725
+Nov 03, 2024 8:40:22 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 3255, count -35, length 3697
+Nov 03, 2024 8:40:28 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 3537, count -21, length 3703
+2024.11.03 20:40:30 INFO  compiling launch (1 scala source)
+2024.11.03 20:40:32 WARN  2 deprecations (since 2.2.60); re-run with -deprecation for details
+2024.11.03 20:40:32 INFO  time: compiled launch in 1.44s
+2024.11.03 20:41:15 INFO  compiling launch (1 scala source)
+2024.11.03 20:41:17 WARN  2 deprecations (since 2.2.60); re-run with -deprecation for details
+2024.11.03 20:41:17 INFO  time: compiled launch in 1.5s
+Nov 03, 2024 8:44:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1098
+Nov 03, 2024 8:46:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1298
+Nov 03, 2024 8:47:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1415
+Nov 03, 2024 8:47:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1527
+Nov 03, 2024 8:48:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1718
+2024.11.03 20:57:12 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 20:57:12 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 20:57:29 INFO  compiling launch (1 scala source)
+2024.11.03 20:57:29 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 20:57:29 INFO  time: compiled launch in 0.52s
+2024.11.03 20:57:30 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 20:58:38 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 20:59:11 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 20:59:19 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 20:59:50 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 20:59:55 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 20:59:56 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 20:59:57 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 20:59:58 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:00:00 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:00:02 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:00:04 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:00:04 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:00:04 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:00:04 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:00:04 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:00:04 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:00:04 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:00:04 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:00:04 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:00:04 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:00:04 INFO  compiling launch (1 scala source)
+2024.11.03 21:00:04 INFO  time: compiled launch in 0.49s
+2024.11.03 21:00:05 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:00:08 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:00:16 INFO  compiling launch (1 scala source)
+2024.11.03 21:00:16 INFO  time: compiled launch in 0.38s
+2024.11.03 21:00:16 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:00:30 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:00:32 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:00:32 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:00:33 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:00:34 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:00:36 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:00:38 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:00:38 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:00:42 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:00:43 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:00:44 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:00:46 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:00:52 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:00:53 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:00:55 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:00:57 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:00:59 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:01:00 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:01:01 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:01:28 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:01:31 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:01:33 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:01:35 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:01:38 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:01:39 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:01:40 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:01:42 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:01:43 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:01:45 INFO  compiling launch (1 scala source)
+2024.11.03 21:01:45 INFO  time: compiled launch in 0.46s
+2024.11.03 21:01:46 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+Nov 03, 2024 9:01:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2544
+2024.11.03 21:02:08 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:02:08 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:02:09 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:02:09 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:02:10 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:02:19 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:02:21 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:02:21 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:02:22 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:02:24 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:02:25 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:02:25 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:02:31 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:02:32 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:02:34 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:02:36 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:02:38 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:02:40 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:02:42 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:02:43 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:02:44 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:02:44 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:02:44 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:02:44 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:02:44 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:02:44 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:02:44 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:02:44 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:02:44 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:02:44 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:02:45 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:02:45 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:02:45 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:02:45 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:02:46 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:02:46 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:02:46 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:02:47 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:02:47 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:02:48 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:02:49 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:02:51 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:02:53 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:02:55 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:02:57 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:02:58 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:03:00 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:03:01 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:03:03 INFO  compiling launch (1 scala source)
+2024.11.03 21:03:04 WARN  2 deprecations (since 2.2.60); re-run with -deprecation for details
+2024.11.03 21:03:04 INFO  time: compiled launch in 1.67s
+Nov 03, 2024 9:03:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3024
+Nov 03, 2024 9:04:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3098
+2024.11.03 21:04:13 INFO  compiling launch (1 scala source)
+2024.11.03 21:04:15 WARN  2 deprecations (since 2.2.60); re-run with -deprecation for details
+2024.11.03 21:04:15 INFO  time: compiled launch in 1.59s
+2024.11.03 21:04:35 INFO  compiling launch (1 scala source)
+2024.11.03 21:04:36 WARN  2 deprecations (since 2.2.60); re-run with -deprecation for details
+2024.11.03 21:04:36 INFO  time: compiled launch in 1.39s
+2024.11.03 21:05:34 INFO  compiling launch (1 scala source)
+2024.11.03 21:05:34 INFO  time: compiled launch in 0.41s
+2024.11.03 21:05:35 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:05:59 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:06:01 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:06:02 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:06:03 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:06:02 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:06:04 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:06:06 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:06:07 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:06:16 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:06:17 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:06:18 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:06:18 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:06:20 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:06:21 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:06:21 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:06:24 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:06:26 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:06:32 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:06:33 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:06:33 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:06:42 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:06:50 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:06:59 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:07:00 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:07:01 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:07:02 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:07:02 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:07:03 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:07:03 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:07:04 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:07:05 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:07:08 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:07:08 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:07:08 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:07:09 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:07:10 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:07:09 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:07:10 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:07:11 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+Nov 03, 2024 9:07:15 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 2687, count -1, length 5043
+2024.11.03 21:07:15 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:07:16 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:07:20 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at scala.meta.internal.metals.debug.DiscoveryFailures$WorkspaceErrorsException$.<clinit>(DiscoveryFailures.scala:53)
+	at scala.meta.internal.metals.debug.DebugDiscovery.validate(DebugDiscovery.scala:92)
+	at scala.meta.internal.metals.debug.DebugDiscovery.debugDiscovery(DebugDiscovery.scala:170)
+	at scala.meta.internal.metals.debug.DebugDiscovery.runCommandDiscovery(DebugDiscovery.scala:61)
+	at scala.meta.internal.metals.MetalsLspService.discoverMainClasses(MetalsLspService.scala:1509)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:818)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.GeneratedMethodAccessor14.invoke(null)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.11.03 21:07:20 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:07:26 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:07:40 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:07:57 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:07:58 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:07:58 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:07:58 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:07:58 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:08:08 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:08:11 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:08:12 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:08:15 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:08:22 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:08:22 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:08:28 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+Nov 03, 2024 9:08:34 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 2687, count -1, length 5043
+2024.11.03 21:08:34 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:08:34 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:08:35 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:08:37 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:08:37 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:08:40 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at scala.meta.internal.metals.debug.DiscoveryFailures$WorkspaceErrorsException$.<clinit>(DiscoveryFailures.scala:53)
+	at scala.meta.internal.metals.debug.DebugDiscovery.validate(DebugDiscovery.scala:92)
+	at scala.meta.internal.metals.debug.DebugDiscovery.debugDiscovery(DebugDiscovery.scala:170)
+	at scala.meta.internal.metals.debug.DebugDiscovery.runCommandDiscovery(DebugDiscovery.scala:61)
+	at scala.meta.internal.metals.MetalsLspService.discoverMainClasses(MetalsLspService.scala:1509)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:818)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.GeneratedMethodAccessor14.invoke(null)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.11.03 21:08:40 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+Nov 03, 2024 9:08:56 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.11.03 21:09:06 INFO  compiling launch (1 scala source)
+2024.11.03 21:09:06 INFO  time: compiled launch in 0.43s
+2024.11.03 21:09:07 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:09:21 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:09:27 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
