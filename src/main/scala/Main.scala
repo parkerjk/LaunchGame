@@ -18,6 +18,7 @@ import scalafx.scene.text.Text
 import scalafx.scene.text.FontWeight
 import scalafx.scene.shape.Line
 import scalafx.collections.ObservableBuffer
+import scalafx.scene.Node
 
 
 object LaunchGame extends JFXApp3 {
@@ -71,7 +72,7 @@ object LaunchGame extends JFXApp3 {
         
         startButton.onMouseClicked = (click : MouseEvent) => {
           content.removeAll()
-          content = List(circle, scoreLabel, trajectoryPreview.toList)
+          content = List(circle, scoreLabel) ++ trajectoryPreview.toList.map(_.asInstanceOf[Node])
         }
 
         onMousePressed = (mousePress : MouseEvent) => {
@@ -79,8 +80,16 @@ object LaunchGame extends JFXApp3 {
             startX = mousePress.x
             startY = mousePress.y
             canLaunch = true
+            velocityX = 0
+            velocityY = 0
+          }
+        }
 
-            updateTrajectoryPreview(circle.centerX(), circle.centerY(), velocityX, velocityY)
+        onMouseDragged = (mouseDragged: MouseEvent) => {
+          if (canLaunch) {
+            val dragVelocityX = (mouseDragged.x - startX) * 0.1
+            val dragVelocityY = (mouseDragged.y - startY) * 0.1
+            updateTrajectoryPreview(circle.centerX(), circle.centerY(), dragVelocityX, dragVelocityY)
           }
         }
 
@@ -89,6 +98,7 @@ object LaunchGame extends JFXApp3 {
             velocityX = (mouseReleased.x - startX) * 0.1
             velocityY = (mouseReleased.y - startY) * 0.1
             canLaunch = false
+            clearTrajectoryPreview()
           }
         }
       }
@@ -138,12 +148,13 @@ object LaunchGame extends JFXApp3 {
   
         // Create a small circle to represent a point in the trajectory
         val point = new Circle {
-          radius = 3
+          radius = 25
           fill = Color.White
           centerX = x
           centerY = y
         }
         
+        println(point)
         trajectoryPreview += point
       }
     }

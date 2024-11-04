@@ -2562,3 +2562,51 @@ INFO: Unsupported notification method: $/setTrace
 2024.11.03 21:09:07 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
 2024.11.03 21:09:21 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
 2024.11.03 21:09:27 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:09:31 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:09:56 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:10:08 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:10:16 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:10:24 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:10:40 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:10:42 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:11:11 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+Exception in thread "pool-7-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:243)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2024.11.03 21:11:14 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:11:15 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:11:15 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:11:16 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:11:17 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:11:20 INFO  compiling launch (1 scala source)
+2024.11.03 21:11:20 INFO  time: compiled launch in 0.4s
+2024.11.03 21:11:20 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:11:26 WARN  Could not load snapshot text for C:\Users\parke\OneDrive\Desktop\Launch\launch\src\main\scala\Main.scala
+2024.11.03 21:11:28 INFO  compiling launch (1 scala source)
+2024.11.03 21:11:30 WARN  2 deprecations (since 2.2.60); re-run with -deprecation for details
+2024.11.03 21:11:30 INFO  time: compiled launch in 1.66s
+Nov 03, 2024 9:12:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4072
+Nov 03, 2024 9:14:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4289
+Nov 03, 2024 9:14:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4296
+Nov 03, 2024 9:14:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4297
+2024.11.03 21:14:35 INFO  compiling launch (1 scala source)
+2024.11.03 21:14:37 WARN  2 deprecations (since 2.2.60); re-run with -deprecation for details
+2024.11.03 21:14:37 INFO  time: compiled launch in 1.63s
+Nov 03, 2024 9:15:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4369
+Nov 03, 2024 9:17:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4544
+2024.11.03 21:17:23 INFO  compiling launch (1 scala source)
+2024.11.03 21:17:24 WARN  2 deprecations (since 2.2.60); re-run with -deprecation for details
+2024.11.03 21:17:24 INFO  time: compiled launch in 1.49s
+2024.11.03 21:18:02 INFO  compiling launch (1 scala source)
+2024.11.03 21:18:03 WARN  2 deprecations (since 2.2.60); re-run with -deprecation for details
+2024.11.03 21:18:03 INFO  time: compiled launch in 1.63s
